@@ -1,0 +1,94 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.borders {
+    height: 600px;            
+    width: 85%;
+    background-color: #f2f5fc;
+}
+    .node {
+        width: 240px;
+        height: 200px;
+        background-color: #EBFAF4;
+        border-radius: 7px;
+        margin-right: 20px;
+        position: absolute;
+        bottom: 1150px;
+        left: 710px;
+    }
+
+    .lar {
+        width: 240px;
+        height: 200px;
+        background-color: #EBFAF4;
+        border-radius: 7px;
+        margin-right: 20px;
+        position: absolute;
+        bottom: 1150px;
+        left: 970px;
+    }
+
+    .vue {
+        width: 240px;
+        height: 200px;
+        background-color: #EBFAF4;
+        border-radius: 7px;
+        margin-right: 20px;
+        position: absolute;
+        top: 550px;
+        left: 710px;
+    }
+
+    .rea {
+        width: 240px;
+        height: 200px;
+        background-color: #EBFAF4;
+        border-radius: 7px;
+        margin-right: 20px;
+        position: absolute;
+        left: 970px;
+        top: 550px;
+    }
+
+    .img {
+        border-radius: 100%;
+    }
+
+    .bb {
+        box-shadow: 1px 1px 1px 1px gray;
+    }
+    .ham-burger {
+        display: none;
+    }
+    .mobile-menu {
+        background-color: rgba(0, 0, 0, 0.227);
+        display: none;
+    }
+    .mobile-menu a{
+        text-decoration: none;
+        color: navy;
+        display: block;
+        padding: 12px 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+       .nav-link {
+        display: none;
+       }
+       .hamburger {
+        display: block;
+        cursor: pointer;
+       }
+       .mobile-menu {
+        display: none;
+        position: absolute;
+        width: 100%;
+       } 
+       .show-menu {
+        display: block;
+       }
+    }
