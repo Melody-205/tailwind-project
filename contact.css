@@ -6,12 +6,8 @@
 body {
     background-color: #101f2b;
 }
-.ab {
+.b {
     color: #F4AA41;
-}
-.nn {
-    background-color: #fb842c;
-    border-radius: 20px;
 }
 .bg {
     border-radius: 10px;
@@ -20,4 +16,8 @@ body {
 .bg-o {
     border-radius: 10px;
     background-color: #0D1922;
+}
+.n {
+    background-color: #fb842c;
+    border-radius: 20px;
 }

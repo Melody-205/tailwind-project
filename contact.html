@@ -1,183 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wedev</title>
-    <link rel="stylesheet" href="quote.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body class="container mx-auto">
-    <header class="container mx-auto px-6 items-center border-2 h-[70px] flex justify-between bg-black">
-        <div class="flex items-center justify-between w-full text-white">
-            <img src="./imagess/1Asset 7(1).png" alt="" width="150px" height="60px" class="px-4">
-            <button class="flex p-2 lg:hidden text-white">
-                <i class="fa fa-bars"></i>
-            </button>
+    <header class="flex justify-between h-[75px] items-center mx-[90px]">
+        <div class="flex">
+            <img src="./imagesss/Group 31.svg" alt="" class="pt-[30px] ">
+            <p class="pt-[50px] text-white pl-[4px]">NONSY LOGISTICS</p>
         </div>
-        <nav class="hidden lg:flex">
-            <a href="" class="px-4 text-white font-medium text-sm uppercase">Home</a>
-            <a href="about.html" class="px-4 font-medium text-sm uppercase text-white">About</a>
-            <a href="contact.html" class="text-green-500 px-4 font-medium text-sm uppercase">Contact</a>
-            <a href="" class="px-4 font-medium text-sm uppercase text-white">Expertise</a>
+        <button class="flex p-2 lg:hidden text-white hamburger">
+            <i class="fa fa-bars" id="ham"></i>
+        </button>
+        <nav class="nav-link hidden lg:flex">
+            <a href="" class="px-8 pt-[30px] text-white text-xs ">Home</a>
+            <a href="./about.html" class="px-8 pt-[30px] text-xs text-white ">About Us</a>
+            <a href="" class="px-8 pt-[30px] text-xs text-white">Services</a>
+            <a href="" class="px-8 pt-[30px] text-xs text-white ">Jobs</a>
+            <a href="" class="px-8 pt-[30px] text-white text-xs text-white ">News</a>
+            <a href="./contact.html" class="px-8 pt-[30px] text-xs b">Contacts</a>
+            <a href=""><button class="text-xs text-white bg-o mt-[20px]  py-2 px-3">Sign Up</button></a>
+            <a href=""><button class="text-xs text-white mt-[20px] bg  py-2 px-3">Sign In</button></a>
         </nav>
     </header>
     <main>
-        <section class="py-10 px-6 bg-green-100 request-section relative bg-[url('images/vectors1.png')] bg-no-repeat">
-            <div class="flex flex-wrap">
-                <div class="w-full md:w-1/2 mb-16 xl:pl-8 2xl:pl-16">
-                    <img src="./imagess/Rectangle 46.svg" alt="">
+        <section class="n my-[70px] md:ml-[50px] md:mr-[50px] sm:mx-[20px]">
+            <div class="flex flex">
+                <div class="w-full md:w-1/2 px-[50px] py-[50px]">
+                    <img src="./imagesss/Rectangle 37 (4).svg" alt="" width="592px" height="729px">
                 </div>
-                <div class="w-full md:w-1/2 lg:mt-16 pl-2 xl:pl-16 md:mt-16 lg:pl-8">
-                    <p class="text-sm font-medium mb-5">DO YOU HAVE ANY QUESTION?</p>
-                    <h3 class="text-4xl font-medium mb-3">Contact Us</h3>
-                    <p class="leading-7">We are located in Nigeria and we operate internationally, with clients from <br> the US, UK, Canada, Australia, and many other countries.</p>
-                </div>
-            </div>
-            <div class="md:absolute right-32 hidden md:block">
-                <img src="imagess/square.png" alt="">
-            </div>
-        </section>
-        <section class="py-10 px-6 bg-white">
-            <div class="flex flex-wrap">
-                <div class="w-full md:w-1/2 lg:pl-12 xl:pl-40">
-                    <p class="text-sm font-medium mb-5">Work with us</p>
-                    <h3 class="text-4xl font-bold mb-5">Lets build a something <br> awesome together</h3>
-                    <div class="flex flex-col">
-                        <form action="">
-                            <label for="" class="block font-medium">Name:</label>
-                            <input type="text" name="" id=""
-                                class="bg-green-100 lg:h-[55px] lg:w-[420px] py-4 px-4 md:mb-5 rounded">
-                            <br>
-                            <label for="" class="block font-medium">Email Address:</label>
-                            <input type="email" name="" id=""
-                                class="bg-green-100 lg:h-[55px] lg:w-[420px] py-4 px-4 md:mb-5 rounded">
-                            <br>
-                            <label for="" class="block font-medium">Your Message</label>
-                            <input type="text" name="" id=""
-                                class="bg-green-100 lg:h-[120px] lg:w-[420px] py-4 px-4 md:mb-5 rounded">
-                            <br>
-                            <!-- <label for="" class="block font-medium">How soon do you want it done?</label>
-                            <input type="text" name="" id=""
-                                class="bg-green-100 lg:h-[55px] lg:w-[420px] py-4 px-4 md:mb-5 rounded">
-                            <br>
-                            <label for="" class="block font-medium">Instructions</label>
-                            <input type="text" name="" id=""
-                                class="bg-green-100 h-[150px] lg:h-[150px] lg:w-[420px] py-4 px-4 md:mb-5 rounded"> -->
-                        </form>
-                        <!-- <p class="mb-5">Need to fill marked. Make a call for more details required</p> -->
-                        <button class="bg-green-500 py-4 w-[213px] lg:w-[420px] rounded text-white mt-[30px] lg:mt-[0]">Submit</button>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 lg:pl-8 xl:pl-16 md:mt-[100px]">
-                    <!-- <div class="pt-[50px] relative flex">
-                        <div><img src="./images/address.png" alt="" class="contact-img pr-8"></div>
-                        <span>
-                            <h4 class="contact-text">Pay us a visit</h4>
-                            <p class="leading-7">471, Alagbado off ijaye ojokoro<br>
-                                Inner Street Long Road,<br>
-                                Rivers Nigeria</p>
-                        </span>
-                    </div>
-                    <div class="pt-[70px] relative flex">
-                        <div class="img-div"><img src="./images/phone.png" alt="" class="contact-img pr-8"></div>
-                        <span>
-                            <h4 class="contact-text">Or drop us a line</h4>
-                            <p class="leading-7">joeladigwe2003@gmail.com</p>
-                            <p>+234 816 3617 315</p>
-                        </span>
-                    </div> -->
-                    <div class="flex pt-[50px]">
-                        <div class="pt-[10px]"><img src="./imagess/Group 8975.svg" alt=""></div>
-                        <div class="pl-6 pb-[40px]">
-                         <div><h4 class="contact-text font-semibold">Pay us a visit</h4>
-                            <p class="leading-10 font-normal">471, Alagbado off ijaye ojokoro<br>
-                                Inner Street Long Road,<br>
-                                Rivers Nigeria</p></div>
-
-                         <div class="pt-[80px] md:pt-[130px]"><h4 class="contact-text font-semibold">Or drop us a line</h4>
-                            <p class="leading-10 font-normal">joeladigwe2003@gmail.com</p>
-                            <p>+234 816 3617 315 <br> +234 903 8323 684 <br> +234 702 619 9144</p>
+                <div class="px-[50px] py-[50px]">
+                    <div class="flex">
+                        <div>
+                            <img src="./imagesss/Frame 33.svg" alt="">
                         </div>
+                        <div class="">
+                            <p class="pl-[]">2 PVOD New <br>
+                                Enugu, Enugu State.
+                            </p>
+                            <p class="pt-[25px] pl-[px]">(+234) 813 0893 579 <br>
+                                (+234) 903 0416 251
+                            </p>
+                            <p class="pt-[36px] pl-[px]">nonsochiemelu@gmail.com</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- <section class="bg-green-100 py-16 py-6 md:py-[80px]">
-            <div class="flex flex-wrap">
-                <div class="w-full md:w-1/2 px-4 lg:pl-12 xl:pl-40">
-                    <h1 class="text-[36px] font-medium">
-                        Do you have a next level-idea?
-                    </h1>
-                    <p class="text-gray-500">
-                        Reach out and we can create magic together
-                    </p>
-                </div>
-                <div class="w-full md:w-1/2 mt-16 pl-4 md:mt-4 lg:m-0 lg:pl-8 xl:pl-40">
-                  <button class="bg-green-500 text-white py-4 px-8 rounded-full uppercase">Work with us</button>
-                </div>
-            </div>
-        </section> -->
     </main>
-    <footer class="flex flex-wrap justify-between px-6 bg-[url('images/footer.png')] bg-no-repeat bg-cover bg-zinc-950 h-[850px] md:h-[560px] md:pt-[100px] pt-[12px]">
-          <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6 lg:pl-[50px] 2xl:pl-[140px]">
-              <h5 class="text-white pb-[5px]">Quick Links</h5>
-              <ul>
-                <li><a href="index.html" class="text-gray-500 hover:text-blue-700 hover:underline">Home</a></li>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">About</a></li>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Expertise</a></li>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Contact</a></li>
-              </ul>
-          </div>
-          <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6">
-            <h5 class="text-white pb-[5px]">Our Services</h5>
-            <ul>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Web Development</a></li>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Digital Project Design</a></li>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Cloud/DevOps</a></li>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Mobile Applications</a></li>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Dedicated Development</a></li>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Team</a></li>
-            </ul>
-          </div>
-          <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6">
-            <h5 class="text-white pb-[5px]">Our Technologies</h5>
-            <ul>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Laravel Development</a></li>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">React Js App Development</a></li>
-                <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Vue Js App Development</a></li>
-            </ul>
-          </div>
-          <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6">
-            <h5 class="text-white pb-[5px]">Contact & Follow Us</h5>
-            <div class="flex justify-center md:pr-[270px] lg:pr-[150px] xl:pr-[220px] 2xl:pr-[280px]">
-              <a href=""><img src="./images/linkedin .png" alt=""></a>
-              <a href=""><img src="./images/instagram .png" alt="" class="pl-2"></a>
-              <a href=""><img src="./images/fb.png" alt=""></a> 
-              <a href="" class="pt-[4px]"><img src="./images/youtube.png" alt=""></a> 
-            </div>
-            <ul class="pt-[5px]">
-                <li class="text-gray-500 hover:text-blue-700 hover:underline">
-                    <div>
-                        <i class="fa-solid fa-phone-volume text-white"></i>
-                        Phone: +2348163617315</div>
-                </li>
-                <li class="text-gray-500 hover:text-blue-700 hover:underline">
-                    <div>
-                        <i class="fa-solid fa-envelope text-white"></i>
-                    E-mail: <span class="text-green-500">joeladigwe2003@gmail.com</span>
-                    </div>
-                </li>
-            </ul> 
-          </div>
-          <span class="text-slate-300 lg:pt-[30px] 2xl:pl-[50px]">WEDEV Software Solution Copyright 2023  - All Right Reserved</span>
-          <!-- <div class="text-green-500 flex"><img src="./images/logo.png" alt="" height="6px" width="">
-            <h3 class=""><span class="text-[36px]">JUM</span> Software Solution</h3>
-         </div> -->
-    </footer>
 </body>
 </html>
